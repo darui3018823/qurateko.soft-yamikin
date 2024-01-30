@@ -1,0 +1,1 @@
+# qurateko.soft-yamikin
