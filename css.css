@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    }
+
+.content {
+     text-align: center;
+     }
+
+h1, h3 {
+  margin: 0; /* 追加: デフォルトのマージンを取り除く */
+        }
+        
+.kyoutyou1 {
+  color: #3498db; /* 目立つ青い色のテキスト */
+  margin-bottom: 3px; /* 下の余白を追加 */
+        
