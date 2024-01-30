@@ -46,3 +46,6 @@ h1, h3 {
 .hutoji-h3 {
     font-weight: bold; /* 太字にする */
 }
+
+body {
+    background-color: #A7B716;
