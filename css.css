@@ -9,7 +9,9 @@ body {
 .content {
      text-align: center;
      }
-
+.content2 {
+     text-align: center;
+     }
 h1, h3 {
   margin: 0; /* 追加: デフォルトのマージンを取り除く */
         }
@@ -17,4 +19,30 @@ h1, h3 {
 .kyoutyou1 {
   color: #3498db; /* 目立つ青い色のテキスト */
   margin-bottom: 3px; /* 下の余白を追加 */
-        
+
+@keyframes colorBlink {
+    0%, 20% {
+        color: red;
+    }
+    25%, 45% {
+        color: blue;
+    }
+    50%, 70% {
+        color: yellow;
+    }
+    75%, 95% {
+        color: green;
+    }
+    100% {
+        color: black;
+    }
+}
+
+.blinking-text {
+    animation: colorBlink 3s infinite; /* 3秒ごとに繰り返すアニメーション */
+    font-size: 80px;
+}
+
+.hutoji-h3 {
+    font-weight: bold; /* 太字にする */
+}
