@@ -16,4 +16,14 @@ body {
 body {
     background-color: #A7B716;
 }
+.chuuousoroe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.chuuousoroe-content {
+    text-align: center;
+}
 /* 下に追加することも可能です。*/
