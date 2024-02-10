@@ -17,7 +17,6 @@ body {
     background-color: #A7B716;
 }
 .chuuousoroe {
-    display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
